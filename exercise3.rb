@@ -1,84 +1,84 @@
-1. Copy your file to a new file: cp arrays_2-3.rb arrays_2-4.rb, then open this new file.
+# 1. Copy your file to a new file: cp arrays_2-3.rb arrays_2-4.rb, then open this new file.
 
-Now change your code so that you get the following output:
+# Now change your code so that you get the following output:
 
-	["One <3", "Three <3<3<3", "Five <3<3<3<3<3"]
+# 	["One <3", "Three <3<3<3", "Five <3<3<3<3<3"]
 	
-2. Copy your file to a new file: cp arrays_2-4.rb arrays_2-5.rb, then open this new file.
+# 2. Copy your file to a new file: cp arrays_2-4.rb arrays_2-5.rb, then open this new file.
 
-Now change your code so that you get the following output 
+# Now change your code so that you get the following output 
 
-(hint: again, that’s now a string, not an array):	
+# (hint: again, that’s now a string, not an array):	
 
-	One <3, Three <3<3<3, Five <3<3<3<3<3
+# 	One <3, Three <3<3<3, Five <3<3<3<3<3
 	
-3. Copy your file to a new file: cp arrays_2-5.rb arrays_2-6.rb, then open this new file.
+# 3. Copy your file to a new file: cp arrays_2-5.rb arrays_2-6.rb, then open this new file.
 
-Now change your code so that you get the following output, using the newline character "\n":	
+# Now change your code so that you get the following output, using the newline character "\n":	
 
-	One <3
-	Three <3<3<3
-	Five <3<3<3<3<3
+# 	One <3
+# 	Three <3<3<3
+# 	Five <3<3<3<3<3
 	
-4. Copy your file to a new file: cp arrays_2-6.rb arrays_2-7.rb, then open this new file.
+# 4. Copy your file to a new file: cp arrays_2-6.rb arrays_2-7.rb, then open this new file.
 
-Now change your code so that you get the following output, aligning the second column:
+# Now change your code so that you get the following output, aligning the second column:
 
-	One   <3
-	Three <3<3<3
-	Five  <3<3<3<3<3
+# 	One   <3
+# 	Three <3<3<3
+# 	Five  <3<3<3<3<3
 	
-As you may guess, strings have a method that is helpful for this. Ask Google: “ruby string align”.	
+# As you may guess, strings have a method that is helpful for this. Ask Google: “ruby string align”.	
 
-5. Make a new file nested_arrays-1.rb, and fill in the following line:
+# 5. Make a new file nested_arrays-1.rb, and fill in the following line:
 
-	numbers = [
-  		[1, 2, 3],
-  		[4, 5, 6],
-  		[7, 8, 9]
-	]
+# 	numbers = [
+#   		[1, 2, 3],
+#   		[4, 5, 6],
+#   		[7, 8, 9]
+# 	]
 	
-	# your code goes here
-	p sums
+# 	# your code goes here
+# 	p sums
 	
-So that you get the following output:
+# So that you get the following output:
 
-	[6, 15, 24]	
+# 	[6, 15, 24]	
 	
-6. Make a new file nested_arrays-2.rb, and fill in the following line:
+# 6. Make a new file nested_arrays-2.rb, and fill in the following line:
 
-   numbers = [
-      [1, 2, 3],
-  	  [2, 2, 2],
-      [3, 2, 1]
-   ]
+#    numbers = [
+#       [1, 2, 3],
+#   	  [2, 2, 2],
+#       [3, 2, 1]
+#    ]
     
-   # your code goes here
-   lines.each { |line| puts line }
+#    # your code goes here
+#    lines.each { |line| puts line }
 		
-	* ** ***
-	** ** **
-	*** ** *	
+# 	* ** ***
+# 	** ** **
+# 	*** ** *	
 		
-7. Make a new file hashes_2-1.rb, and dd the following lines:
+# 7. Make a new file hashes_2-1.rb, and dd the following lines:
 
 
-	languages = {
-  		:de => 'German',
-  		:en => 'English',
-  		:es => 'Spanish',
-	}
+# 	languages = {
+#   		:de => 'German',
+#   		:en => 'English',
+#   		:es => 'Spanish',
+# 	}
 
-	dictionary = {
-  		:de => { :one => 'eins', :two => 'zwei', :three => 'drei' },
-  		:en => { :one => 'one', :two => 'two', :three => 'three' },
-  		:es => { :one => 'uno', :two => 'dos', :three => 'tres' }
-	}
+# 	dictionary = {
+#   		:de => { :one => 'eins', :two => 'zwei', :three => 'drei' },
+#   		:en => { :one => 'one', :two => 'two', :three => 'three' },
+#   		:es => { :one => 'uno', :two => 'dos', :three => 'tres' }
+# 	}
 	
-Now, at the end of the file, add code that prints out the following:
+# Now, at the end of the file, add code that prints out the following:
 
-	In German, eins means one, zwei means two, drei means three.
-	In Spanish, uno means one, duo means two, tres means three.	
+# 	In German, eins means one, zwei means two, drei means three.
+# 	In Spanish, uno means one, duo means two, tres means three.	
 	
 8. Copy your file to a new file cp hashes_2-2.rb hashes_2-3.rb and change your code 
 so that it aligns the table columns:	

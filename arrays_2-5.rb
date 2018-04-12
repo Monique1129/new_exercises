@@ -1,3 +1,11 @@
 words = ["one", "two", "three", "four", "five"]
 
-puts "#{words[0].capitalize} <3, #{words[2].capitalize} <3<3<3, #{words[4].capitalize} <3<3<3<3<3"
+delete = [1, 2]
+
+words.map!(&:capitalize) 
+words.map.with_index { |x,i| x << " " << "<3" * (i+1) }
+delete.each do |x|
+  words.delete_at(x)
+end
+
+p words
